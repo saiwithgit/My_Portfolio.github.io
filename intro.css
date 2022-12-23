@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100&family=PT+Sans&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(159, 159, 255);
+}
+/* .home {
+    margin: 5px 1400px;
+    padding: 10px 80px 8px 10px;
+    border: 2px solid blue;
+    background-color: blue;
+    font-size: 25px;
+    border-radius: 20px;
+} */
+.home a{
+    margin: 50px 1400px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 10px 8px 10px;
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    border-radius: 30px;
+}
+.home a:hover{
+    margin: 50px 1400px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 10px 10px 8px 10px;
+    background-color: white;
+    border: 3px solid blue;
+    color: blue;
+    border-radius: 30px;
+    /* font-weight: bold; */
+}
+/* .home a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home:hover{
+    background-color: white;
+}
+.home a:hover{
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+} */
+.pic img{
+    border: 3px solid blue;
+    padding: 0px;
+    border-radius: 20% ;
+    margin: 10px 675px;
+    width: 150px;
+}
+.para{
+    margin: 0px 200px 0px 200px;
+    padding: 30px;
+    /* border: 2px solid red; */
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.para h3{
+    color: rgb(0, 0, 137);
+}
+.personal{
+    margin: 0px 200px;
+    padding: 0px 30px;
+    /* border: 2px solid green; */
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.personal h4{
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    color: blue;
+}
+.interest h4{
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+    color: blue;
+}
+.interest{
+    margin: 5px 200px;
+    padding: 0px 30px;
+    /* border: 2px solid green; */
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.interest ul li{
+    float: left;
+    width: 150px;
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100&family=PT+Sans&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main{
+    background-color: rgb(0, 26, 255);
+    width: 50vw;
+    height: 100vh;
+}
+.head{
+   margin: 40px 99px;
+   color: beige;
+
+}
+.info{
+    padding: 130px 85px;
+}
+.hello{
+    color: rgb(138, 138, 255);
+    font-size: 30px;
+    font-style: bold;
+}
+.self{
+    color: white;
+    font-size: 70px;
+}
+.prof{
+    color: rgb(218, 218, 250);
+    font-size: 25px;
+}
+.sign{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    padding:  40px 10px;
+    
+}
+.sign a{
+    margin: 1px 0px 3px 39px;
+    padding: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 40px;
+}
+.sign a:hover{
+    margin: 1px 0px 3px 39px;
+    padding: 18px;
+    color: rgba(0, 0, 0);
+    text-decoration: none;
+}
+
+
+.nav{
+    position: relative;
+    width: 520px;
+    height: 20px;
+    /* background-color: rgb(69, 189, 89); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 95px 150px;
+    /* margin: 5px 10px; */
+}
+.nav ul{
+    display: flex;
+    width: 590px;
+   
+}
+.nav ul li{
+    position: relative;
+    list-style: none;
+    width: 108px;
+    z-index: 1;
+    padding: 20px;
+}
+.nav ul li a{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: column;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+    /* font-weight: 400; */
+}
+.nav ul li a .icon{
+    position: relative;
+    display: block;
+    line-height: 50px;
+    font-size: 2.3em;
+    text-align: center;
+    transition: 0.5s;
+    color: blue;
+}
+.nav ul li:hover a .icon{ 
+    transform: translateY(-20px);
+}
+.nav ul li a .text{
+    position: absolute;
+    color: blue;
+    padding: 27px;
+    font-weight: bold;
+    font-size: 1.3em;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+.nav ul li:hover a .text{
+    opacity: 10;
+    transform: translateY(10px);
+}
+
+.pic{
+    margin: -77px 0px;
+    /* width: 858px;
+    height: 450px; */
+    background-color: rgba(34, 91, 60, 0.801);    
+}
+.pic img{
+    padding: 0px 245px;
+    width: 340px;
+    height: 425px;
+}
+
+.para{
+    margin: 90px 0px;
+    width: 800px;
+    height: 60px;
+    padding: 15px 0px 0px 15px;
+    /* background-color: pink; */
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 176);
+}
+.btn a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    margin: 34px 6px 2px 620px;
+    padding: 15px;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+.btn a:hover{
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border: 3px solid blue;
+    margin: 34px 6px 2px 620px;
+    padding: 15px;
+    font-weight: bold;
+    transition: 0.2s;
+}

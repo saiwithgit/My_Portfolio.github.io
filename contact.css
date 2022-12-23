@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@100&family=PT+Sans&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-family: 'Ubuntu', sans-serif;
+}
+.head{
+    background-color: blue;
+    margin: 20px 0px;
+    padding: 50px;
+    text-align: center;
+    color: white ;
+    font-size: 45px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cont{
+    margin: 0px 330px;
+    /* border: 2px solid red; */
+    width: 890px;
+    height: 490px;
+    padding: 0px 50px;
+    font-size: 25px;
+    
+}
+.Mob{
+    float: left;
+    width:55%;
+}
+
+.Add{
+    float: left;
+    width: 55%;
+}
+.insta{
+    float: right;
+    width: 45%;
+}
+.icon{
+    font-size: 1.8em;
+}
+.Mob:hover{
+    float: left;
+    width:55%;
+    color: blue;
+    font-size: 27px;
+    transition: 0.5s;
+}
+.Add:hover{
+    float: left;
+    width: 55%;
+    color: blue;
+    font-size: 27px;
+    transition: 0.5s;
+}
+.insta:hover{
+    float: right;
+    width: 45%;
+    color: blue;
+    font-size: 27px;
+    transition: 0.5s;
+}
+.link:hover{
+    color: blue;
+    font-size: 27px;
+    transition: 0.5s;
+}
+.mail:hover{
+    color: blue;
+    transition: 0.5s;
+}
+.git:hover{
+    color: blue;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.home a{
+    margin: 0px 690px;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px;
+    background-color: blue;
+    border: 2px solid blue;
+    color: white;
+    border-radius: 30px;
+}
+.home a:hover{
+    margin: 0px 690px;
+    text-decoration: none;
+    font-size: 35px;
+    transition: 0.5s;
+    padding: 15px;
+    background-color: white;
+    border: 3px solid blue;
+    color: blue;
+    border-radius: 30px;
+    font-weight: bold;
+}
